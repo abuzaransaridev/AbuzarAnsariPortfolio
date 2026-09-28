@@ -12,7 +12,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: #050a12;
     color: #f5f7fa;
-    overflow-x: hidden;
 }
 
 a {
@@ -407,7 +406,6 @@ a {
     gap: 70px;
     align-items: center;
 }
-
 .about-text p {
     color: #9ba6b5;
     line-height: 1.9;
@@ -415,8 +413,8 @@ a {
     margin-bottom: 20px;
 }
 
-.about-text .secondary-btn {
-    margin-top: 15px;
+.about-text, .secondary-btn {
+    margin-top: 0px;
 }
 
 .about-cards {
