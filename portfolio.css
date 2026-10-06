@@ -313,7 +313,6 @@
 		font-size: 25px;
 	}
 	:root { --ink: #27B2FF; }
-	/* 34 Perimeter — square tracing the frame */
 	.ld-perimeter {
 	  width: 220px;
 	  border: 1px dashed color-mix(in srgb, var(--ink) 20%, transparent);
@@ -325,13 +324,13 @@
 	  width: 10px; height: 10px;
 	  border-radius: 3px;
 	  background: var(--ink);
-	  animation: perim 3s linear infinite;
+	  animation: perim 4s linear infinite;
 	}
 	@keyframes perim {
 	  0%   { transform: translate(0, 0); }
 	  25%  { transform: translate(220px, 0); }
-	  50%  { transform: translate(220px, 290px); }
-	  75%  { transform: translate(0, 290px); }
+	  50%  { transform: translate(220px, 212px); }
+	  75%  { transform: translate(0, 212px); }
 	  100% { transform: translate(0, 0); }
 	}
 	.html {
@@ -671,7 +670,6 @@
 		color:#1F72F8;
 		text-decoration:underline;
 	}
-	
 	.contact_form_area 
 	{
 		display: flex;
