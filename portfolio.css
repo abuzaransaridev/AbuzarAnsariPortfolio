@@ -406,12 +406,9 @@
 	}
 	.about_me_area {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(2,1fr);
 		gap: 70px;
 		align-items: center;
-	}	
-	.about_me_text{
-
 	}
 	.btn_know_more{
 		background-image: linear-gradient(to right, #5C258D 0%, #4389A2 51%, #5C258D 100%);
